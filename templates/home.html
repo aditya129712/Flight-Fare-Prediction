@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-
-
-</head>
+        <!-- css -->
+        <link rel="stylesheet" href="static/css/styles.css">
+       
 
 <body>
 
@@ -20,7 +20,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/">FLIGHT FARE</a>
+                <a class="navbar-brand" href="/">FLIGHT FARE PREDICTION</a>
             </div>
         </div>
     </nav>
@@ -70,23 +70,28 @@
                             <!-- Source -->
                             <h5 class="card-title">Source</h5>
                             <select name="Source" id="Source" required="required">
+                                <option value="Mumbai">Mumbai</option>
                                 <option value="Delhi">Delhi</option>
                                 <option value="Kolkata">Kolkata</option>
-                                <option value="Mumbai">Mumbai</option>
                                 <option value="Chennai">Chennai</option>
                             </select>
                         </div>
                     </div>
                 </div>
+
+                <br>
+                <br>
+                <br>
+
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Destination</h5>
                             <!-- Destination -->
                             <select name="Destination" id="Destination" required="required">
+                                <option value="New Delhi">New Delhi</option>
                                 <option value="Cochin">Cochin</option>
                                 <option value="Delhi">Delhi</option>
-                                <option value="New Delhi">New Delhi</option>
                                 <option value="Hyderabad">Hyderabad</option>
                                 <option value="Kolkata">Kolkata</option>
                             </select>
@@ -100,6 +105,7 @@
             <br>
             <br>
             <br>
+
 
             <div class="row">
                 <div class="col-sm-6">
@@ -117,17 +123,22 @@
                         </div>
                     </div>
                 </div>
+
+                <br>
+                <br>
+                <br>
+
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Which Flight Service Do you want to travel?</h5>
                             <!-- Airline -->
                             <select name="airline" id="airline" required="required">
+                                <option value="SpiceJet">SpiceJet</option>
                                 <option value="Jet Airways">Jet Airways</option>
                                 <option value="IndiGo">IndiGo</option>
                                 <option value="Air India">Air India</option>
                                 <option value="Multiple carriers">Multiple carriers</option>
-                                <option value="SpiceJet">SpiceJet</option>
                                 <option value="Vistara">Vistara</option>
                                 <option value="Air Asia">Air Asia</option>
                                 <option value="GoAir">GoAir</option>
